@@ -10,3 +10,5 @@ In your solution you must provide the following in your Github link account:
   * Problem statement 
   * UML Class Diagram
   * Uploaded java codes for the solution.
+
+![SingletonPatten UML Class Diagram](https://github.com/user-attachments/assets/93a52db5-4868-48a6-9eb1-78dd8bc9ec34)
