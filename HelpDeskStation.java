@@ -11,17 +11,17 @@ class HelpDeskStation {
         return instance;
     }
 
-    public synchronized void currentQueueNumber() {
+    public synchronized void currentQueueNo() {
         System.out.println("\nCurrent Queue Number: " + queueNumber);
     }
 
-    public synchronized void serveNextCustomer(String desk) {
+    public synchronized void nextQueueNo(String station) {
         queueNumber++;
-        System.out.println(desk + ": " + "Customer " + queueNumber);
+        System.out.println(station + ": " + "Customer " + queueNumber);
     }
 
-    public synchronized void resetQueueNumber(int num) {
-        queueNumber = num;
+    public synchronized void resetQueueNo(int newQueueNo) {
+        queueNumber = newQueueNo;
         System.out.println("\nQueue Number Reset to " + queueNumber);
     }
 }
